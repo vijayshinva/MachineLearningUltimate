@@ -6,16 +6,18 @@ LABEL version="0.1"
 LABEL description="One image to rule them all!"
 
 # Update APT-GET Sources
-#RUN echo 'deb http://cran.cnr.berkeley.edu/bin/linux/ubuntu trusty main' >> /etc/apt/sources.list 
 RUN apt-get update -y
 
 # Utilities
 RUN apt-get install wget -y
 
 # Anaconda
-RUN wget --quiet https://repo.continuum.io/archive/Anaconda3-2.4.1-Linux-x86_64.sh
-RUN bash Anaconda3-2.4.1-Linux-x86_64.sh -b -p /opt/anaconda
+RUN wget --quiet https://repo.continuum.io/archive/Anaconda2-2.4.1-Linux-x86_64.sh
+RUN bash Anaconda2-2.4.1-Linux-x86_64.sh -b -p /opt/anaconda
 ENV PATH /opt/anaconda/bin:$PATH
+
+#Utilities
+RUN pip install --upgrade pip
 
 # R
 RUN apt-get install r-base -y
