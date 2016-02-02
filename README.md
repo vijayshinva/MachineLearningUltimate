@@ -2,6 +2,10 @@
 ###### One image to rule them all!
 `MachineLearningUltimate` is a docker image with a bunch of popular machine learning toolkits preinstalled. You can quickly spin up an instance of this docker image on Linux or Windows (using Docker ToolBox)
 
+```docker
+docker run -it vijayshinva/machinelearningultimate
+```
+
 The goal of `MachineLearningUlitmate` is to have all popular machine learning / statistical computing toolkits ready for use. 
 
 ### Goals
@@ -25,4 +29,6 @@ The goal of `MachineLearningUlitmate` is to have all popular machine learning / 
 
 
 
+
+[Docker image for machine learning enthusiasts](https://vijayshinva.github.io)
 [Vijayshinva](https://vijayshinva.github.io)
