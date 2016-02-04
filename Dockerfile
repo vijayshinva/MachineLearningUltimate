@@ -15,7 +15,7 @@ RUN apt-get install wget -y
 RUN wget --quiet https://repo.continuum.io/archive/Anaconda2-2.4.1-Linux-x86_64.sh
 RUN bash Anaconda2-2.4.1-Linux-x86_64.sh -b -p /opt/anaconda
 ENV PATH /opt/anaconda/bin:$PATH
-RUN RM /Anaconda2-2.4.1-Linux-x86_64.sh
+RUN rm /Anaconda2-2.4.1-Linux-x86_64.sh
 
 #Utilities
 RUN pip install --upgrade pip
