@@ -15,15 +15,20 @@ RUN apt-get install wget -y
 RUN wget --quiet https://repo.continuum.io/archive/Anaconda2-2.4.1-Linux-x86_64.sh
 RUN bash Anaconda2-2.4.1-Linux-x86_64.sh -b -p /opt/anaconda
 ENV PATH /opt/anaconda/bin:$PATH
+RUN RM /Anaconda2-2.4.1-Linux-x86_64.sh
 
 #Utilities
 RUN pip install --upgrade pip
+RUN apt-get install git-all -y
 
 # R
 RUN apt-get install r-base -y
 
 # TensorFlow
 RUN pip install --upgrade https://storage.googleapis.com/tensorflow/linux/cpu/tensorflow-0.5.0-cp27-none-linux_x86_64.whl
+
+# Theano
+RUN pip install Theano
 
 # IPython
 EXPOSE 8888

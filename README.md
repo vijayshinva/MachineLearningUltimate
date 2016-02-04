@@ -17,10 +17,14 @@ The goal of `MachineLearningUlitmate` is to have all popular machine learning / 
 * Anaconda
 * R
 * TensorFlow
+* Theano
+
+### Tools - Incorporated
+* wget
+* Git
 
 ### ToolKits - Under consideration
 * CNTK
-* Theano
 * Torch
 * Caffe
 
@@ -30,5 +34,5 @@ The goal of `MachineLearningUlitmate` is to have all popular machine learning / 
 
 
 
-[Docker image for machine learning enthusiasts](https://vijayshinva.github.io)
+[Docker image for machine learning enthusiasts](https://vijayshinva.github.io)   
 [Vijayshinva](https://vijayshinva.github.io)
