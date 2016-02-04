@@ -34,5 +34,5 @@ The goal of `MachineLearningUlitmate` is to have all popular machine learning / 
 
 
 
-[Docker image for machine learning enthusiasts](https://vijayshinva.github.io)   
+[Docker image for machine learning enthusiasts](http://vijayshinva.github.io/machine%20learning/docker/anaconda/python/r/tensorflow/2016/02/04/docker-image-for-machine-learning-enthusiasts.html)   
 [Vijayshinva](https://vijayshinva.github.io)
